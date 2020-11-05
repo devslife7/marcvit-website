@@ -30,7 +30,7 @@ export default function HeroSection() {
         <HeroH1>Virtual Bankin Made Easy</HeroH1>
         <HeroP>Sign up for a new account today and receive $250 in credit towards your next payment</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
