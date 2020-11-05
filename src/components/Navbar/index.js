@@ -6,7 +6,15 @@ export default function Navbar() {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo>dolla</NavLogo>
+          <NavLogo to='/'>dolla</NavLogo>
+          <MobileIcon>
+            <FaBars />
+          </MobileIcon>
+          <NavMenu>
+            <NavItem>
+              <NavLinks to='about'>About</NavLinks>
+            </NavItem>
+          </NavMenu>
         </NavbarContainer>
       </Nav>
     </>
