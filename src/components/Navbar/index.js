@@ -1,5 +1,6 @@
 import React from "react"
-import { Nav, NavbarContainer, NavLogo } from "./NavbarElements"
+import { FaBars } from "react-icons/fa"
+import { MobileIcon, Nav, NavbarContainer, NavItem, NavLinks, NavLogo, NavMenu } from "./NavbarElements"
 
 export default function Navbar() {
   return (
