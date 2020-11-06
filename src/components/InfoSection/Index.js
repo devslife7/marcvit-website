@@ -1,11 +1,11 @@
 import React from "react"
 import { Button } from "../ButtonElement"
+import example from "../../images/svg-1.svg"
 import {
   BtnWrap,
   Column1,
   Column2,
   Heading,
-  Img,
   ImgWrap,
   InfoContainer,
   InfoRow,
@@ -13,6 +13,7 @@ import {
   Subtitle,
   TextWrapper,
   TopLine,
+  Img,
 } from "./InfoElements"
 
 export default function InfoSection({
@@ -31,11 +32,12 @@ export default function InfoSection({
   dark,
   dark2,
 }) {
+  // console.log(img)
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow imgStart={imgStart}>
+          <InfoRow imgStart={false}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
@@ -60,7 +62,8 @@ export default function InfoSection({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={require("../../images/svg-2.svg")} alt={alt} />
+                {/* <Img src={require("../../images/svg-2.svg")} alt={alt} /> */}
+                <Img src={example} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
