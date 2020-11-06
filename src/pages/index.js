@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Footer from "../components/Footer"
 import HeroSection from "../components/HeroSection"
 import { homeObjOne, homeObjTwo, homeObjThree } from "../components/InfoSection/Data"
 import InfoSection from "../components/InfoSection/Index"
@@ -22,6 +23,7 @@ export default function Home() {
       <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection {...homeObjThree} />
+      <Footer />
     </>
   )
 }
