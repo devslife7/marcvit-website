@@ -1,5 +1,5 @@
 import React from "react"
-import { Button } from "../ButtonElement"
+import { Button } from "../ButtonElements"
 import example from "../../images/svg-1.svg"
 import {
   BtnWrap,
@@ -37,7 +37,7 @@ export default function InfoSection({
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow imgStart={false}>
+          <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
@@ -62,7 +62,9 @@ export default function InfoSection({
             </Column1>
             <Column2>
               <ImgWrap>
-                {/* <Img src={require("../../images/svg-2.svg")} alt={alt} /> */}
+                {/* <Img src={require("../../images/example.png")} alt={alt} /> */}
+                {/* <img src={require("../../images/example.png")} alt={"alt"} /> */}
+                {/* <Img src={img} alt={alt} /> */}
                 <Img src={example} alt={alt} />
               </ImgWrap>
             </Column2>

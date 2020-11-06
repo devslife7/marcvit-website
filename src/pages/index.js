@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection"
 import { homeObjOne, homeObjTwo, homeObjThree } from "../components/InfoSection/Data"
 import InfoSection from "../components/InfoSection/Index"
 import Navbar from "../components/Navbar"
+import Services from "../components/Services"
 import SideBar from "../components/SideBar"
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <Services />
       <InfoSection {...homeObjThree} />
     </>
   )
