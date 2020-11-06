@@ -19,7 +19,7 @@ export default function Home() {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjOne} /> */}
       <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection {...homeObjThree} />
