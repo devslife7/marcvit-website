@@ -35,14 +35,14 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-  id: "signup",
+  id: "about",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transactions with zero fees",
+  topLine: "business services",
+  headline: "Solutions that meet your needs",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+    "We create custom and responsive web applications to saves you time when it comes to managing you business",
   buttonLabel: "Get started",
   imgStart: false,
   img: require("../../images/svg-3.svg"),

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,7 +49,7 @@ export const ServicesCard = styled.div`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
