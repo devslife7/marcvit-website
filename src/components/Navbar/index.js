@@ -37,7 +37,7 @@ export default function Navbar({ toggle }) {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to='/' onClick={toggleHome}>
-            dolla
+            MarcVit
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -58,15 +58,15 @@ export default function Navbar({ toggle }) {
                 Services
               </NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks to='signup' smooth='true' duration={500} spy={true} exact='true' offset={-80}>
                 Sign Up
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
           </NavMenu>
-          <NavBtn>
+          {/* <NavBtn>
             <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-          </NavBtn>
+          </NavBtn> */}
         </NavbarContainer>
       </Nav>
     </>
