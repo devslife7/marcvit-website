@@ -20,18 +20,18 @@ export default function Services() {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce expenses</ServicesH2>
-          <ServicesP>We help reduce your fess and increase your overall revenue.</ServicesP>
+          <ServicesH2>Website Building</ServicesH2>
+          <ServicesP>Develop your web presence and make your business goals a reality.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>You can access our platform online anywhere in the world.</ServicesP>
+          <ServicesH2>Custom Application Development</ServicesH2>
+          <ServicesP>We build custom applications that meet your unique needs.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
-          <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+          <ServicesH2>Information Technology Solutions</ServicesH2>
+          <ServicesP>We manage your IT, so you can manage your business.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

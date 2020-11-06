@@ -1,14 +1,17 @@
 import styled from "styled-components"
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md"
 import { Link as LinkS } from "react-scroll"
+import background from "../../images/company.jpg"
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  /* background: #0c0c0c; */
+  background: url(${background});
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  /* height: 800px; */
+  height: 100vh;
   position: relative;
   z-index: 1;
 
@@ -19,8 +22,8 @@ export const HeroContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
     z-index: 2;
   }
 `

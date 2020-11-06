@@ -20,7 +20,7 @@ export default function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       {/* <InfoSection {...homeObjOne} /> */}
-      <InfoSection {...homeObjTwo} />
+      {/* <InfoSection {...homeObjTwo} /> */}
       <Services />
       <InfoSection {...homeObjThree} />
       <Footer />

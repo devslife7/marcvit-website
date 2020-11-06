@@ -22,12 +22,10 @@ export default function HeroSection() {
 
   return (
     <HeroContainer id='Home'>
-      <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
-      </HeroBg>
+      {/* <HeroBg><VideoBg autoPlay loop muted src={Video} type='video/mp4' /></HeroBg> */}
       <HeroContent>
         <HeroH1>We Help your Business </HeroH1>
-        <HeroP>Services and web applications to help companies manage thier work and scale.</HeroP>
+        <HeroP>Services and web applications to help companies manage thier work.</HeroP>
         <HeroBtnWrapper>
           <LinkBtn
             to='services'
