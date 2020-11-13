@@ -66,9 +66,11 @@ export default function Footer() {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              MarkVit
+              MarcVit
             </SocialLogo>
-            <WebsiteRights>MarkVit © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>
+              Copyright © {new Date().getFullYear()} MarcVit, LLC. All rights reserved.
+            </WebsiteRights>
 
             <SocialIcons>
               <SocialIconLink
