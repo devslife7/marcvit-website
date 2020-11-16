@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import Video from "../../videos/video.mp4"
 import {
   ArrowForward,
   ArrowRight,
@@ -9,7 +8,6 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  VideoBg,
   LinkBtn,
 } from "./HeroElements"
 
