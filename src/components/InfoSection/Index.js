@@ -1,6 +1,5 @@
 import React from "react"
 import { Button } from "../ButtonElements"
-import example from "../../images/svg-1.svg"
 import {
   BtnWrap,
   Column1,
@@ -32,7 +31,6 @@ export default function InfoSection({
   dark,
   dark2,
 }) {
-  // console.log(img)
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -62,10 +60,7 @@ export default function InfoSection({
             </Column1>
             <Column2>
               <ImgWrap>
-                {/* <Img src={require("../../images/example.png")} alt={alt} /> */}
-                {/* <img src={require("../../images/example.png")} alt={"alt"} /> */}
-                {/* <Img src={img} alt={alt} /> */}
-                <Img src={example} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
