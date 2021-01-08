@@ -21,21 +21,21 @@ export default function SideBar({ isOpen, toggle }) {
           <SidebarLink to='about' onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to='discover' onClick={toggle}>
+          {/* <SidebarLink to='discover' onClick={toggle}>
             Discover
-          </SidebarLink>
+          </SidebarLink> */}
           <SidebarLink to='services' onClick={toggle}>
             Services
           </SidebarLink>
-          <SidebarLink to='signup' onClick={toggle}>
+          {/* <SidebarLink to='signup' onClick={toggle}>
             Sign Up
-          </SidebarLink>
+          </SidebarLink> */}
         </SidebarMenu>
-        <SideBtnWrap>
+        {/* <SideBtnWrap>
           <SidebarRoute to='/singin' onClick={toggle}>
             Sign In
           </SidebarRoute>
-        </SideBtnWrap>
+        </SideBtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   )
