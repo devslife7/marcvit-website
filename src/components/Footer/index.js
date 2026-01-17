@@ -3,11 +3,11 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin, FaGithub } f
 import { animateScroll as scroll } from "react-scroll"
 import {
   FooterContainer,
-  FooterLink,
-  FooterLinkItems,
+  // FooterLink,
+  // FooterLinkItems,
   FooterLinksContainer,
   FooterLinksWrapper,
-  FooterLinkTitle,
+  // FooterLinkTitle,
   FooterWrap,
   SocialIconLink,
   SocialIcons,
